@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f3f5fc;
+}
+
+.bg-transparent {
+    background: transparent !important;
+}
+
+
+
+.card {
+    height: 100%;
+    border: none;
+
+}
+
+.card .card-body {
+
+    margin-top: 10rem;
+    height: 50%;
+
+}
+
+.card .card-body textarea {
+    width: 100%;
+    border: none;
+    resize: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+
+    color: #0A3871;
+
+}
+
+.card .card-body textarea::placeholder {
+    color: #0A3871;
+}
+
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    margin-left: 1.5rem;
+
+}
+
+.info img {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px .5px;
+}
+
+.info p {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 150%;
+
+    color: #495057;
+    opacity: 0.8;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+
+/* .buttonsEncrypt {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+} */
+
+.encrypt,
+.decrypt {
+
+    display: flex;
+    flex-direction: row;
+    /* padding: 1.5rem; */
+
+    /* width: 20rem; */
+    height: 4.1rem;
+
+
+    background: #0A3871;
+    border-radius: 1.5rem;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* margin: 0 1.5rem; */
+}
+
+
+.encrypt p,
+.decrypt p {
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.188rem;
+    text-align: center;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0 .5rem;
+}
+
+.encrypt p {
+    color: #FFFFFF;
+}
+
+.decrypt {
+
+    background: #D8DFE8;
+
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+
+    order: 1;
+}
+
+.decrypt p {
+    color: #0A3871;
+}
+
+.card-crypto {
+
+    padding: 0 1.5rem 0 1.5rem;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 2rem;
+
+}
+
+.card-crypto img {
+
+    margin-top: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card-crypto .boxText {
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.card-crypto .boxText span,
+.card-crypto .boxText p {
+
+    width: 80%;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 120%;
+    /* or 29px */
+
+    text-align: center;
+
+    /* Gray/gray-500 */
+
+    color: #343A40;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 1rem 0 1.2rem 0;
+}
+
+.card-crypto .boxText p {
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+
+    color: #495057;
+
+    order: 1;
+}
+
+#boxAfter {
+    height: 100%;
+    padding: 2rem 0 2rem 0;
+    display: none;
+}
+
+#boxAfter p {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+}
