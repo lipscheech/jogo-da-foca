@@ -15,48 +15,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 
-    <title>Sprint 1 Criptografando textos</title>
+    <title>Sprint 2 Jogo da Forca</title>
 </head>
 
 <body>
-    <div class="container d-flex flex-wrap justify-content-between p-0 h-100 px-lg-0 px-1">
+    <div class="container">
+
         <header class="d-flex justify-content-start align-items-center col-12 mt-3">
             <img src="./assets/Vector.svg" alt="">
         </header>
-        <div class="card d-flex col-12 col-lg-8 bg-transparent">
-            <div class="card-body">
-                <textarea id="text" class="bg-transparent" placeholder="Digite seu texto" rows="10"
-                    cols="40"></textarea>
-            </div>
-            <div class="info">
-                <img src="assets/bi_exclamation-circle-fill.svg" alt="">
-                <p>Apenas letras minúsculas e sem acento.</p>
-            </div>
-            <div class="d-flex justify-content-lg-start justify-content-center col-12 col-lg-9 mb-lg-0 mb-3">
-                <button class="encrypt col-6 p-4 mx-lg-3" onclick="criptografar()">
-                    <p class="text-wrap">Criptografar</p>
-                </button>
-                <button class="decrypt col-6 p-4 mx-lg-3" onclick="descriptografar()">
-                    <p class="text-wrap">Descriptografar</p>
-                </button>
-            </div>
-        </div>
-
-        <div class="card-crypto col-12 col-lg-4 bg-white  ">
-            <div id="boxText" class="mt-lg-0 mt-4 boxText">
-                <div class="text-center">
-                    <img class="mb-4 d-none d-md-block w-100" src="./assets/High_quality_products.svg" alt="">
-                    <span class="">Nenhuma mensagem encontrada</span>
-                    <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+        <main>
+            <section class="start-game">
+                <div class="card align-items-center justify-content-center h-100 bg-transparent border-0">
+                    <button type="button" class="iniciar mb-4">Começar a jogar</button>
+                    <button type="button" class="adicionar-palavra">Adicionar nova palavra</button>
                 </div>
-            </div>
-            <div id="boxAfter">
-                <p id="textBoxText"></p>
-            </div>
-        </div>
+            </section>
+        </main>
         <!-- <footer>
-        <span><Strong>Dev</Strong> Filipe Cavalcante dos Santos</span>
-    </footer> -->
+            <span><Strong>Dev</Strong> Filipe Cavalcante dos Santos</span>
+        </footer> -->
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
