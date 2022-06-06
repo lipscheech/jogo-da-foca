@@ -6,10 +6,9 @@
 
 body {
     background-color: #f3f5fc;
-}
-
-header {
-    height: 40px;
+    height: 90vh;
+    display: flex;
+    margin: 0 auto;
 }
 
 .bg-transparent {
