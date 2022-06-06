@@ -8,6 +8,10 @@ body {
     background-color: #f3f5fc;
 }
 
+header {
+    height: 40px;
+}
+
 .bg-transparent {
     background: transparent !important;
 }
@@ -20,12 +24,15 @@ body {
 }
 
 .iniciar, .adicionar-palavra {
+    text-decoration: none;
     width: 317px;
     height: 105px;
     padding: 24px;
     gap: 8px;
-    border-radius: 24px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    border-radius: 24px;
 
 }
 
